@@ -1,0 +1,87 @@
+.right-container {
+    width: 100vw;
+    border-top: 2px solid gray;
+    margin-top: 8rem;
+}
+
+.right-area {
+    margin-left: 5rem;
+}
+.right-area h1 {
+    margin-top: 5rem;
+}
+
+.date-area {
+    display: flex;
+}
+
+.date-slot {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #2c4d7c;
+    width: 5vw;
+    padding: 0.5rem 0;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 1rem;
+    background: none;
+    padding: 2rem;
+}
+
+.date-slot h4, .date-slot p {
+    margin: 0;
+}
+
+.date-slot:visited ,.time-slot:visited {
+    background-color: green;
+    color: white;
+}
+
+.date-slot:hover ,.time-slot:hover {
+    background-color: green;
+    color: white;
+}
+
+
+.slot-booking {
+    margin-top: 4rem;
+}
+
+.time-area {
+    display: flex;
+}
+
+.time-slot {
+    border: 2px solid #2c4d7c;
+    padding: 0 1rem;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 1rem;
+}
+
+.pay {
+    margin-top: 3rem;
+    border: 2px solid #021b3e;
+    border-radius: 10px;
+    color: white;
+    background-image: linear-gradient(to right, #021b3e, #1a3459);
+    padding: 0.7rem 2rem;
+    cursor: pointer;
+}
+
+.border-area {
+    display: flex;
+}
+
+.border-1 {
+    border-bottom: 5px solid #021b3e;
+    width: 5vw;
+}
+
+.border-2 {
+    border-bottom: 5px solid #d52047;
+    width: 5vw;
+}
